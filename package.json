@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "chat": "node chat.js",
-    "search": "node search.js"
+    "search": "node search.js",
+    "qs": "node qa.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,9 @@
     "@langchain/openai": "^0.2.1",
     "dotenv": "^16.4.5",
     "langchain": "^0.2.8",
-    "openai": "^4.52.3"
+    "openai": "^4.52.3",
+    "pdf-parse": "^1.1.1",
+    "youtube-transcript": "^1.2.1",
+    "youtubei.js": "^9.4.0"
   }
 }
